@@ -1,0 +1,66 @@
+    1  ip a
+    2  exit
+    3  exit
+    4  ip addr
+    5  cd /etc/sysconfig/network-scripts/
+    6  pwd
+    7  ls
+    8  vi ifcfg-enp0s3
+    9  ls
+   10  vi ifcfg-enp0s3
+   11  ls
+   12  vi ifcfg-enp0s8
+   13  systemctl restart network
+   14  ipa
+   15  ip a
+   16  exit
+   17  ip a
+   18  sudo yum install git -y
+   19  cd/tmp/
+   20  cd /tmp/
+   21  git clone https://github.com/jonas/tig.git
+   22  cd tig
+   23  yum install gcc ncurses-devel ncurses
+   24  make
+   25  make install
+   26  tig
+   27  q
+   28  rm -rf tig/
+   29  git clone https://github.com/Danielperga97/so-workshop2
+   30  tig
+   31  clear
+   32  pwd/tmp/so-workshop2/
+   33  tig
+   34  clear
+   35  cdls
+   36  ls
+   37  cd so-workshop2
+   38  psw2
+   39  tig
+   40  q
+   41  touch message_1.txt
+   42  ls
+   43  ls -l message_1.txt
+   44  git add message_1.txt
+   45  git status
+   46  git rn nessage_1.txt
+   47  git rm message_1.txt
+   48  git reset
+   49  git rm -f message_1.txt
+   50  git status
+   51  git add message_1.txt
+   52  git status
+   53  git checkout -b A00018200/workshop2
+   54  git branch
+   55  git checkout master
+   56  git branch -D A00018200/workshop2
+   57  git checkout -b Danielperga97/workshop2
+   58  touch message_1.txt
+   59  git status
+   60  git add message_1.txt
+   61  git status
+   62  git commit -m "add message_.txt"
+   63  cat ./git/config
+   64  cat .git/config
+   65  history
+   66  history>command_list.txt
