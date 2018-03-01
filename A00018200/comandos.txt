@@ -1,0 +1,83 @@
+    1  yum install git
+    2  cd tmp
+    3  cd ..
+    4  cd tmp
+    5  git clone https://github.com/jonas/tig.git
+    6  cd tig
+    7  yum install gcc ncurses-devel ncurses
+    8  make
+    9  make install
+   10  yum install strace
+   11  yum install gcc kernel-devel-${UNAME%.*}
+   12  git clone https://github.com/jvns/kernel-module-fun.git
+   13  UNAME=$(uname -r)
+   14  yum install gcc kernel-devel-${UNAME%.*}
+   15  make all
+   16  make
+   17  sudo insmod hello.ko
+   18  make all
+   19  yum install gcc kernel-devel-${UNAME%.*}
+   20  make all
+   21  cd ..
+   22  git clone https://github.com/Danielperga97/so-workshop2
+   23  ls
+   24  cd so-workshop2/
+   25  ls
+   26  mkdi A00018200
+   27  mkdir A00018200
+   28  cd A00018200/
+   29  cd ..
+   30  cd..
+   31  cd ..
+   32  cd tmp
+   33  yum install vim
+   34  vim syscall_01.c
+   35  ls
+   36  gcc syscall_01.c -o syscall_01.o
+   37  ./syscall_01.o
+   38  ls
+   39  cd so-workshop2
+   40  ls
+   41  cd A00018200
+   42  vim syscall_02
+   43  ls
+   44  vim syscall_02.c
+   45  ls
+   46  vim syscall_02.c
+   47  ls
+   48  cd ..
+   49  ls
+   50  mv syscall_01 so-workshop2
+   51  mv syscall_01.c so-workshop2
+   52  ls
+   53  so-workshop2/
+   54  ls
+   55  cd so-workshop2/
+   56  ls
+   57  mv syscall_01.c A00018200
+   58  ls
+   59  cd A00018200
+   60  vim syscall_03.c
+   61  gcc syscall_03.c -o syscall_03.o
+   62  vim syscall_03.c
+   63  gcc syscall_03.c -o syscall_03.o
+   64  vim syscall_03.c
+   65  gcc syscall_03.c -o syscall_03.o
+   66  vim syscall_03.c
+   67  gcc syscall_03.c -o syscall_03.o
+   68  vim syscall_03.c
+   69  gcc syscall_03.c -o syscall_03.o
+   70  gcc syscall_02.c -o syscall_02.o
+   71  vim Makefile
+   72  ls
+   73  rm syscall_02.o
+   74  rm syscall_03.o -y
+   75  rm syscall_03.o -s
+   76  rm syscall_03.o 
+   77  ls
+   78  Makefile ALL
+   79  vim Makefile
+   80  Makefile
+   81  make ALL
+   82  history
+   83  history>comandos.txt
