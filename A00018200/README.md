@@ -1,3 +1,8 @@
+**SO-WORKSHOP 2**
+
+**Nombre:** Daniel Perez Garcia
+**Codigo**: A00018200
+
 **LLamadas al sistema**
 
 1. **gettimeofday**: Esta llamada al sistema retorna la hora que contiene el sistema, ademas de la zona horaria en la que se encuentra.
